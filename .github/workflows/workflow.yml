@@ -12,5 +12,5 @@ jobs:
     - uses: Azure/sql-action@v1
       with:
         server-name: my-sql-database
-        connection-string: ${{ secrets.CONNECTION_STRING }}
+        connection-string: ${{ secrets.AZURE_SQL_CONNECTION_STRING }}
         dacpac-package: './Database.dacpac'
