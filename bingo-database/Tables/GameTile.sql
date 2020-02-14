@@ -5,4 +5,4 @@
     [Content] NVARCHAR(MAX) NOT NULL, 
     CONSTRAINT [PK_GameTile] PRIMARY KEY ([Id]),
     CONSTRAINT [FK_GameBoard] FOREIGN KEY ([GameBoardId]) REFERENCES [GameBoard]([Id])
-)
+) 
