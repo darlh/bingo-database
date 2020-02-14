@@ -14,4 +14,3 @@ jobs:
         server-name: my-sql-database
         connection-string: ${{ secrets.CONNECTION_STRING }}
         dacpac-package: './Database.dacpac'
-© 2020 GitHub, Inc.
